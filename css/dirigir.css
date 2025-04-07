@@ -1,0 +1,101 @@
+.divDirecao img{
+    width: 100px;
+}
+
+.ativa:hover{
+    cursor: pointer;
+}
+
+.ativa:active{
+    scale: 80%;
+}
+
+.divDirecao{
+    background-color: rgba(59, 59, 59, 0.979);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0px;
+}
+
+#automovel img{
+    width: 300px;
+    margin-bottom: 0px;
+    margin-top: 200px;
+}
+
+#rua{
+    background-color: rgb(36, 36, 36);
+    height: 20px;
+    margin-top: 0px;
+}
+
+.divCeu{
+    background-color: rgb(100, 241, 241);
+}
+
+#ignicaoo h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#divNuvem {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    padding-top: 30px;
+}
+
+#divKilometragem h2{
+    text-align: center;
+    margin-top: 5px;
+}
+
+#divNuvem img{
+    width: 100px;
+    margin-right: 300px;
+}
+
+.fuel{
+    display: flex;
+}
+
+.barraaaa{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.barraGasolina{
+    display: flex;
+    align-items: end;
+    width: 10px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: red;
+}
+
+.gassosa{
+    width: 100%;
+    background-color: green;
+    height: 50%;
+}
+
+main{
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    background: url("../img/logoIcons/bg.avif");
+}
+
+.game{
+    width: 100%;
+    border-bottom: 5px solid rgb(240, 83, 83);
+    border-top: 5px solid rgb(240, 83, 83);
+}

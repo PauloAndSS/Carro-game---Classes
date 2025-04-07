@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Game</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/dirigir.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+</head>
+<body>
+    <header>
+        <div id="divLogo"><img src="./img/logoIcons/logo.jpg" alt="logo"><h1>Java Classe</h1></div>
+        <nav>
+            <a href="">Home</a>
+            <a href="">Selecionar carro</a>
+            <a href="">Posto</a>
+        </nav>
+    </header>
+    <main>
+        <div class="game">
+            <div class="divCeu">
+                <div id="divNuvem">
+                    <img src="./img/dirigir/nuvem.png" alt="">
+                    <img src="./img/dirigir/nuvem.png" alt="">
+                    <img src="./img/dirigir/nuvem.png" alt="">
+                </div>
+                <div id="automovel"><img src="./img/carros/carro1.png" alt=""></div>
+                <div id="rua"></div>
+            </div>
+            <div class="divDirecao">
+                <div id="ignicaoo" class="ativa">
+                    <h2>Ligar</h2>
+                </div>
+                <div id="divKilometragem">
+                        <img src="./img/dirigir/odômetro.png" alt="odômetro">
+                    <h2 id="kilometragem">0km</h2>
+                </div>
+                <div id="divPetalAcelerador" class="ativa" onclick="acelerar(2)">
+                    <img src="./img/dirigir/acelerador.png" alt="">
+                </div>
+                <div id="divPetalFreio" class="ativa">
+                    <img src="./img/dirigir/freio.png" alt="">
+                </div>
+                <div class="barraaaa">
+                    gasolina
+                    <div class="fuel">
+                    <div class="barraGasolina"><div class="gassosa"></div></div>
+                    <h2>10/20</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./js/gameDirigir.js"></script>
+    </main>
+    <footer>
+        <p>©copyright</p>
+    </footer>
+</body>
+</html>
